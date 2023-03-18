@@ -297,9 +297,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
+          /*Gitee*/
+          // clientID: '3fda21116a5882c0bc385f743d2ac73b5ee33d52f454690524b0907403193de5',
+          // clientSecret: 'a2feb97be2530a1eb3b42c4ae1ea5d31bb7b56c41cbd8a22601bf6a7c33d279d',
+          // repo: 'super_panda', // GitHub 仓库
+          // owner: 'super_panda', // GitHub仓库所有者
+          // admin: ['super_panda'], // 对仓库有写权限的人
+          /*Github*/
+          clientID: '7b13738953bcb077ea35',
+          clientSecret: 'fdad0f90ae81f409bd955f53cc8ff26b0a19479d',
+          repo: 'super_panda', // GitHub 仓库
           owner: 'xiaoliuxuesheng', // GitHub仓库所有者
           admin: ['xiaoliuxuesheng'], // 对仓库有写权限的人
           // distractionFreeMode: true,
