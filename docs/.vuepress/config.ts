@@ -45,10 +45,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'Java基础',
             items: [
-              {
-                text: '数据结构与算法',
-                link: '/java/base/data/'
-              }
+              {text: '数据结构与算法', link: '/java/base/data/'}
+            ]
+          },
+          {
+            text: 'Java框架',
+            items: [
+              {text: "MyBatis", link: '/java/fw/mybatis/'},
+              {text: "MyBatisPlus", link: '/java/fw/mybatis-plus/'},
+              {text: "Spring", link: '/java/fw/spring/'},
+              {text: "SpringMvc", link: '/java/fw/spring-mvc/'},
+              {text: "SpringBoot", link: '/java/fw/spring-boot/'},
+              {text: "Hibernate", link: '/java/fw/hibernate/'},
+              {text: "SpringBootJpa", link: '/java/fw/jpa/'},
+              {text: "SpringSecurity", link: '/java/fw/security/'},
             ]
           }
         ]

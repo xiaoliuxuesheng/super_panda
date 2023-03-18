@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 乘风破浪 披荆斩棘
-tagline: 鱼龙混杂的江湖里，何去何从。钢筋水泥的森林里，路在何方。
+# heroText: 乘风破浪 披荆斩棘
+# tagline: 鱼龙混杂的江湖里，何去何从。钢筋水泥的森林里，路在何方。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: none 
@@ -16,7 +16,7 @@ features: # 可选的
   - title: Java全栈
     details: Java基础及相关Java框架
     link: /java/
-    imgUrl: /img/ui.png
+    imgUrl: /img/Java.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
