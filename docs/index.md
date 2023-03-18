@@ -5,7 +5,7 @@ heroText: 乘风破浪 披荆斩棘
 tagline: 鱼龙混杂的江湖里，何去何从。钢筋水泥的森林里，路在何方。
 # actionText: 立刻进入 →
 # actionLink: /web/
-bannerBg: background 
+# bannerBg: none 
 # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的

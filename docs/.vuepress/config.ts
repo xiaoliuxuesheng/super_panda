@@ -54,7 +54,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ]
       },
         // 默认保留
-      {text: '|', link: '/'},
+      {text: '|', link: null},
       {
         text: '索引',
         link: '/archives/',// 点击导航默认打开归档
@@ -73,16 +73,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '前端轮子', link: '/pages/47cf96/' },
         ],
       },
-      {text: '|', link: '/'},
+      {text: '|', link: null},
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'xiaoliuxuesheng/super_panda', // 导航栏右侧生成Github链接
+    // repo: 'xiaoliuxuesheng/super_panda', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
-    // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
-    editLinks: true, // 启用编辑
+    docsBranch: 'main', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
+    editLinks: false, // 启用编辑
     editLinkText: '编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
@@ -94,14 +94,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
-    bodyBgImg: [
-      'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-      'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-      'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
-    ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
-    bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
-    bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
-    titleBadge: true, // 文章标题前的图标是否显示，默认true
+    // bodyBgImg: [
+    //   'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
+    //   'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
+    //   'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+    // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
+    // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
+    // bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
+    // titleBadge: true, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
     //   '图标地址2'
@@ -130,7 +130,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: 'https://s1.ax1x.com/2023/03/18/ppJs44s.png',
       name: 'xiaoliuxuesheng',
       slogan: '前端界的小学生',
     },
@@ -161,13 +161,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2019, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://gitee.com/xiaoliuxuesheng/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'Panda | <a href="https://gitee.com/xiaoliuxuesheng/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xiaoliuxuesheng',
+        name: '刘晓东',
         link: 'https://gitee.com/xiaoliuxuesheng'
       }
     },
